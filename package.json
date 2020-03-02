@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MittaNL",
+  "license": "ISC",
+  "dependencies": {
+    "cronofy": "^3.4.1",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.2.4",
+    "googleapi": "^1.0.2",
+    "googleapis": "^47.0.0",
+    "mysql": "^2.18.1"
+  }
+}

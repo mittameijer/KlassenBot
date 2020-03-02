@@ -1,19 +1,22 @@
 {
-  "name": "server",
+  "name": "klassenbot",
   "version": "1.0.0",
-  "description": "Test server",
-  "main": "app.js",
+  "description": "Klassenbot van MB1B",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mittameijer/KlassenBot.git"
+  },
   "author": "MittaNL",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mittameijer/KlassenBot/issues"
+  },
+  "homepage": "https://github.com/mittameijer/KlassenBot#readme",
   "dependencies": {
-    "cronofy": "^3.4.1",
-    "discord.js": "^11.5.1",
-    "enmap": "^5.2.4",
-    "googleapi": "^1.0.2",
-    "googleapis": "^47.0.0",
-    "mysql": "^2.18.1"
+    "discord.js": "^12.0.1"
   }
 }

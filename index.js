@@ -1,9 +1,9 @@
 const discord = require("discord.js");
-const url = require('url');
-const http = require('http');
-var address = "http://localhost:8080/index.html?on=yes";
-const client = new discord.Client();
 const config = require('./config/config.json');
+const client = new discord.Client();;
+
+
+
 
 client.on('message', msg =>{
     if(msg.author.bot) return;
@@ -18,8 +18,10 @@ client.on('message', msg =>{
     }
 });
 
-client.login(config.token);
 
-function turnonpc(){
-    http.request(address);
+function turnonpc(msg){
+    msg.channel.send("Ik ben hier nog mee bezig!");
+    return;
 }
+
+client.login(config.token);

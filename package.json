@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mittameijer/KlassenBot#readme",
   "dependencies": {
-    "discord.js": "^12.0.1"
+    "discord.js": "^12.0.1",
+    "mysql": "^2.18.1"
   }
 }
